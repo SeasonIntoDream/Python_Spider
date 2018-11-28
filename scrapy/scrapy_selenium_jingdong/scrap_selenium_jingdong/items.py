@@ -1,8 +1,7 @@
 import scrapy
 
+class ScrapSeleniumJingDongItem(scrapy.Item):
 
-class ScrapSeleniumTaobaoItem(scrapy.Item):
-    
     name = scrapy.Field()
     price= scrapy.Field()
     commit = scrapy.Field()
